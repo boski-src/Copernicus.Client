@@ -64,8 +64,8 @@ export class HomeComponent implements OnInit {
   }
 
   public setLanguage(code : string) {
-    localStorage.setItem('language', code);
-    window.location.reload();
+    // localStorage.setItem('language', code);
+    window.location.replace(`/${code}/`);
   }
 
   ngOnInit() {

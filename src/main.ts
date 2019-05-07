@@ -8,23 +8,25 @@ if (environment.production) {
   enableProdMode();
 }
 
-declare const require;
+// declare const require;
+// let locale = localStorage.getItem('language');
+// console.log(locale);
+// let providers = [];
+//
+// if (['pl'].includes(locale)) {
+//   const translations = require(`raw-loader!./locale/messages.${locale}.xlf`);
+//   providers = [
+//     { provide: TRANSLATIONS, useValue: translations },
+//     { provide: TRANSLATIONS_FORMAT, useValue: 'xlf' },
+//     { provide: LOCALE_ID, useValue: locale }
+//   ];
+// }
+// platformBrowserDynamic().bootstrapModule(AppModule, {
+//   providers,
+//   missingTranslation: MissingTranslationStrategy.Ignore
+// })
+//   .catch(err => console.error(err));
 
-let locale = localStorage.getItem('language');
-console.log(locale);
-let providers = [];
 
-if (['pl'].includes(locale)) {
-  const translations = require(`raw-loader!./locale/messages.${locale}.xlf`);
-  providers = [
-    { provide: TRANSLATIONS, useValue: translations },
-    { provide: TRANSLATIONS_FORMAT, useValue: 'xlf' },
-    { provide: LOCALE_ID, useValue: locale }
-  ];
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule, {
-  providers,
-  missingTranslation: MissingTranslationStrategy.Ignore
-})
+platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));

@@ -1,729 +1,887 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="94516fa213706c67ce5a5b5765681d7fb032033a" datatype="html">
-        <source>Loading...</source>
-        <target>Ładowanie...</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/shared/spinner/spinner.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">Spinner text</note>
-      </trans-unit>
-      <trans-unit id="6e7ff9f6dc98574be925e54267f8b508746d000b" datatype="html">
-        <source>Enter Game CODE</source>
-        <target>Wprowadź kod gry</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">Enter game PIN placeholder</note>
-      </trans-unit>
-      <trans-unit id="887686536bfa135c25a3a4ada87635f6abc4c981" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Join
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Dołącz
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3740b72f222618fb957163c5cc970827d1aeda3e" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> O nas
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="54d04a27f0a07a4244b67dd53e9dcc99db9c4ba1" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Players
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Gracze
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="67821fca5ccaf3363221d164daffde92b134ee6a" datatype="html">
-        <source>Choose language</source>
-        <target>Wybierz język</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3f13e2cab8208f1c5ecd86de9d22f386613b52b0" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Games
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Quizy
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-		<trans-unit id="ba6dfe02a527a94f9aed8aa6f27c9b3c42601cad" datatype="html">
-			<source>
-				Sign In first
-			</source>
-			<target>
-				Zaloguj się
-			</target>
-			<context-group purpose="location">
-				<context context-type="sourcefile">app/game/join/join.component.html</context>
-				<context context-type="linenumber">27</context>
-			</context-group>
-		</trans-unit>
-      <trans-unit id="4f637e1dd58541464a8197ffe09e6ab07fdcf61b" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Create party
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Stwórz grę
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f02cfadaf11c7a039902672c6fb5074082bee8ce" datatype="html">
-        <source>Site map</source>
-        <target>Podstrony</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
-        <source>Home</source>
-        <target>O nas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="937093765fcbf52b42322e9515cad6fa7c82e39f" datatype="html">
-        <source>Top players</source>
-        <target>Najlepsi gracze</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="48e5266ec0eb1eb1dfced30b02d4ed0722370e56" datatype="html">
-        <source>Explore games</source>
-        <target>Przeglądaj gry</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="97a8e9a97b1654f0050096e4418106ff5f8fed73" datatype="html">
-        <source>Create party</source>
-        <target>Stwórz grę</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">54</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
-        <source>Logout</source>
-        <target>Wyloguj</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="83be59bfa61a6accd9d6e353912ab7fee53096d9" datatype="html">
-        <source>Follow us</source>
-        <target>Śledź nas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
-        <source>Source Code</source>
-        <target>Kod źródłowy</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="be3e44843fc209fa89d43ce29eb19f94d378cc67" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> O nas
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">75</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9ce81f26676297d91f163708da159143f9854a0d" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> TOP Players
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Najlepsi gracze
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">78</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="18066dab03322b15639ba410019ba8c0eed854d6" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Explore games
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Przeglądaj gry
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f91db3cb45a05f9cf68b97e89fac58221d456732" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Sign In
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Zaloguj się
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="da5a0a0c5fddf02cffad79e0addb612e487d72ee" datatype="html">
-        <source>Learn with fun.</source>
-        <target>Zdobywaj wiedzę przez zabawę.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="77ebba6f8463860c712278fd39ee06e5686b1124" datatype="html">
-        <source>
-          Enter the world of physics, mathematics and astronomy. And all this with the addition of fun and competition online.
-        </source>
-        <target>
-          Wejdź do świata szeroko pojętej fizyki, matematyki i astronomii. A to wszystko z dodatkiem zabawy i rywalizacji online.
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3ccabfc3dc288eaa2355ba43298c739f85951ec3" datatype="html">
-        <source>Get started</source>
-        <target>Rozpocznij</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-            <trans-unit id="a5df14dbe7eb1b2f5dacd47121089eb1ddd3cd59" datatype="html">
-              <source>
-          Join at Copernicus.com <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.code }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </source><target>
-          Wejdź na Copernicus.top <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.code }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </target>
-              <context-group purpose="location">
-                <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-                <context context-type="linenumber">2</context>
-              </context-group>
+    <file source-language="en" datatype="plaintext" original="ng2.template">
+        <body>
+            <trans-unit id="94516fa213706c67ce5a5b5765681d7fb032033a" datatype="html">
+                <source>Loading...</source>
+                <target>Ładowanie...</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/spinner/spinner.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+                <note priority="1" from="description">Spinner text</note>
             </trans-unit>
-      <trans-unit id="8e859be1c21e0e3065c73925db6e1b514bee08d7" datatype="html">
-	  <source>
-		  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Back
-		</source>
-	  <target>
-		  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Wróć
-		</target>
-	  <context-group purpose="location">
-		<context context-type="sourcefile">app/game/join/join.component.html</context>
-		<context context-type="linenumber">15</context>
-	  </context-group>
-	</trans-unit>
-      <trans-unit id="0fb41c643108e3036f5efa139342f7b9a560b696" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Share with friends</source>
-        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Udostępnij</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
-        <source>About us</source>
-        <target>O nas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2d37190000f137b74e367934ea3362e20e189fa5" datatype="html">
-        <source>
-Copernicus is quiz-based multiplayer, online game, totally free for everyone, no-ads, only valuable content. Here
-		you can play, learn, compete in classroom or with peoples from entire world. Quiz is based on questions of topics from
-		astronomy, physics, mathematics and strict Nicklaus Copernicus and his whole live, arts.
-		</source>
-		<target>
-		Copernicus to oparta gra online, trybu quiz, całkowicie darmowa dla wszystkich, bez reklam.
-                  Tutaj możesz grać, uczyć się, rywalizować w klasie lekcyjnej lub z ludźmi z całego świata.
-                  Quiz opiera się na pytaniach z zakresu astronomii, fiyzki, matematyki i ściśle Mikołaja Kopernika oraz jego całą twórczość.
-		</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d184c74d3b65e9e243297a3067af28e7a6d9a2d1" datatype="html">
-        <source>Top 20 Players</source>
-        <target>Najlepsza dwuciestka</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6ddd111adc65ea7a206f01264da2c8a94adfef52" datatype="html">
-        <source>#</source>
-        <target>#</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="20ae108a7e345f9f46e9b1bf8106ce3fa073b07e" datatype="html">
-        <source>Fullname</source>
-        <target>Nazwa</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="380e20a1e13d9489c69f6dbea7da19025ab6eb25" datatype="html">
-        <source>Score</source>
-        <target>Punkty</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="46ab04482073e8ff438ac86ef494cb871752bf69" datatype="html">
-        <source>Ratio (W/L)</source>
-        <target>Ratio (W/L)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="82c9d30b59ffc0e61540a5816223024e0e7bb3d6" datatype="html">
-        <source>
-          Join
-        </source>
-        <target>
-          Dołącz
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="191572cc97a3c153bbc47aaf5e4b2a89c4289d58" datatype="html">
-        <source>
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Load more
-        </source>
-        <target>
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Załaduj więcej
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="addd9eb9ba30470e0a76874b2cf336c1db849e60" datatype="html">
-        <source>
-          Sign in to join
-        </source>
-        <target>
-          Zaloguj się, żeby dołączyć
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0f108a98d4672cb1e6c45886c1fd44cd1fca0fd8" datatype="html">
-        <source>Not found any available games.</source>
-        <target>Nie znaleziono żadnych, dostępnych gier.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">43</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f6ac50256484747f3cd6c0369c870234232e1743" datatype="html">
-        <source>
-          Create party
-        </source>
-        <target>
-          Stwórz grę
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
-        <source>Name</source>
-        <target>Nazwa</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0292cbbb0c4261290aca6e776f7617533af37520" datatype="html">
-        <source>Primary language</source>
-        <target>Język przewodni</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="60041b7b6c6e42bcc4749e82fa378f3090e3ba4c" datatype="html">
-        <source>Max questions</source>
-        <target>Ilość pytań</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="70a67e04629f6d412db0a12d51820b480788d795" datatype="html">
-        <source>Create</source>
-        <target>Stwórz</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="92d148342c34c5a06629f123e69326ecdc0eb31c" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Back
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Wróć
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bfe767b26231f9b2b21c3dee508141b2c9dd7041" datatype="html">
-        <source>
-          Game:
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{game.name}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Members:
-          <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_1" equiv-text="{{game.members?.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Questions:
-          <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_2" equiv-text="{{game.questions?.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-        </source>
-        <target>
-          Gra:
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{game.name}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Człownków:
-          <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_1" equiv-text="{{game.members?.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-          Pytań:
-          <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_2" equiv-text="{{game.questions?.length}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/round.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3eed3c0167ac14df9b8fcf72108d32ea25436c5d" datatype="html">
-        <source>Leave</source>
-        <target>Opuść</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/round.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="aa922b4f70787c668209f5e7cbf11293da18d4b8" datatype="html">
-        <source>
-          Join to <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game?.name }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </source>
-        <target>
-          Dołącz do <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game?.name }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/join/join.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1360aa52f3faeed54a94917fb1c0d68d655eab2d" datatype="html">
-        <source>
-          Join
-        </source>
-        <target>
-          Dołącz
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/join/join.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a1044ce893e3ee8206e5c748f168740f48d26000" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Back
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Wróć
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/join/join.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7d7517d4ca2a05f0d55c855730b55d11167093e1" datatype="html">
-        <source>
-          Join at Copernicus.com <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.code }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </source>
-        <target>
-          Wejdź Copernicus.com <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>z KODEM: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.code }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="26b462a6655ef2ebc97b2c74d51a5c1380f55001" datatype="html">
-        <source>
-          Start with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.members.length }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> members
-        </source>
-        <target>
-          Rozpocznij z <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ game.members.length }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> członków
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5d49ee389add9351d1a4e56d4c8200eff140b932" datatype="html">
-        <source>
-          Close
-        </source>
-        <target>
-          Zamknij
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c02cf115c3e25fb8aba7d5976d44c5805f5c0f9e" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Lobby<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Poczekalnia<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="91e1a3e89590c9aeac5faca0abcdfc5a40d4084c" datatype="html">
-        <source>
-          Leave
-        </source>
-        <target>
-          Wyjdź
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2b57189b63c6dc4940730313e9abe18a86b08123" datatype="html">
-        <source>
-          Next question
-        </source>
-        <target>
-          Następne pytanie
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ce3207da93c57ee458f63d63eb7beca97c8c8549" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Start Game
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Rozpocznij grę
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3b25c9f700d10eb71fa400ba5ba513737b300904" datatype="html">
-        <source>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Go to Summary
-        </source>
-        <target>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Podsumuj punkty
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="407cedc408da8b591480c478497955abdbbeca7a" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Quiz game<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Gra quiz<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dab2c1cad44a61d1864d5038729953ab762a10c0" datatype="html">
-        <source>
-          Question: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ question.orderIndex + 1 }}"/> of <x id="INTERPOLATION_1" equiv-text="{{ game.questions.length }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </source>
-        <target>
-          Pytanie: <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ question.orderIndex + 1 }}"/> of <x id="INTERPOLATION_1" equiv-text="{{ game.questions.length }}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="102e74ef8de9138727efc98888927dd36c71f71a" datatype="html">
-        <source>
-          Answer correct <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-        </source>
-        <target>
-          Odpowiedź prawidłowa <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">84</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b7d39cfd638039c752add77d3b9755c793323c24" datatype="html">
-        <source>
-          Answer incorrect <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-        </source>
-        <target>
-          Odpowiedź nieprawidłowa <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">87</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3eba52dbaa15c2553565568d9b0ef3914fb989ee" datatype="html">
-        <source>Waiting for summaring...</source>
-        <target>Oczekiwanie na podsumowanie...</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">110</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7df992fd206edc5520b9e9ab14209b84f6f29de6" datatype="html">
-        <source>Waiting for next round...</source>
-        <target>Oczekiwanie na następną rundę...</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">111</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="572f87134f6aa4f09ee38bca937fcd75aa8a4527" datatype="html">
-        <source>Waiting for start...</source>
-        <target>Oczekiwanie na rozpoczęcie...</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html</context>
-          <context context-type="linenumber">112</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="14096db5ce8c71746b52b4d4b8be0ff09a9da01d" datatype="html">
-        <source>
-          Leave from <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </source>
-        <target>
-          Wyjdź z <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6fd57cce2aef2c79332250d05f0076dbcc7fe678" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Final scoreboard<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Tabela wyników<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="81d400b008d0f6bd04b506531fd2bd82c6103c78" datatype="html">
-        <source>Place</source>
-        <source>Place</source>
-        <target>Miejsce</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="59bdc3dfa4075f92c734588899485db702c8f120" datatype="html">
-        <source>Player</source>
-        <target>Gracz</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bc99df90a8b9f271fcf33a02fc5fb21e519d929e" datatype="html">
-        <source>The game was ended with zero score.</source>
-        <target>Gra została zakończona z wynikiem zero.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-    </body>
-  </file>
+            <trans-unit id="6e7ff9f6dc98574be925e54267f8b508746d000b" datatype="html">
+                <source>Enter Game CODE</source>
+                <target>Wprowadź kod gry</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">6</context>
+                </context-group>
+                <note priority="1" from="description">Enter game PIN placeholder</note>
+            </trans-unit>
+            <trans-unit id="887686536bfa135c25a3a4ada87635f6abc4c981" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Join
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Dołącz
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3740b72f222618fb957163c5cc970827d1aeda3e" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Home
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    O nas
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="54d04a27f0a07a4244b67dd53e9dcc99db9c4ba1" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Players
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Gracze
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">18</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="67821fca5ccaf3363221d164daffde92b134ee6a" datatype="html">
+                <source>Choose language</source>
+                <target>Wybierz język</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3f13e2cab8208f1c5ecd86de9d22f386613b52b0" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Games
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Quizy
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">21</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ba6dfe02a527a94f9aed8aa6f27c9b3c42601cad" datatype="html">
+                <source>
+                    Sign In first
+                </source>
+                <target>
+                    Zaloguj się
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/join/join.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4f637e1dd58541464a8197ffe09e6ab07fdcf61b" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Create party
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Stwórz grę
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">25</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f02cfadaf11c7a039902672c6fb5074082bee8ce" datatype="html">
+                <source>Site map</source>
+                <target>Podstrony</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">42</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+                <source>Home</source>
+                <target>O nas</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">45</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="937093765fcbf52b42322e9515cad6fa7c82e39f" datatype="html">
+                <source>Top players</source>
+                <target>Najlepsi gracze</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="48e5266ec0eb1eb1dfced30b02d4ed0722370e56" datatype="html">
+                <source>Explore games</source>
+                <target>Przeglądaj gry</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">51</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="97a8e9a97b1654f0050096e4418106ff5f8fed73" datatype="html">
+                <source>Create party</source>
+                <target>Stwórz grę</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">54</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+                <source>Logout</source>
+                <target>Wyloguj</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="83be59bfa61a6accd9d6e353912ab7fee53096d9" datatype="html">
+                <source>Follow us</source>
+                <target>Śledź nas</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
+                <source>Source Code</source>
+                <target>Kod źródłowy</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="be3e44843fc209fa89d43ce29eb19f94d378cc67" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Home
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    O nas
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">75</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="9ce81f26676297d91f163708da159143f9854a0d" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    TOP Players
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Najlepsi gracze
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">78</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="18066dab03322b15639ba410019ba8c0eed854d6" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Explore games
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Przeglądaj gry
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">81</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f91db3cb45a05f9cf68b97e89fac58221d456732" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Sign In
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Zaloguj się
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">85</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="da5a0a0c5fddf02cffad79e0addb612e487d72ee" datatype="html">
+                <source>Learn with fun.</source>
+                <target>Zdobywaj wiedzę przez zabawę.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="77ebba6f8463860c712278fd39ee06e5686b1124" datatype="html">
+                <source>
+                    Enter the world of physics, mathematics and astronomy. And all this with the addition of fun and
+                    competition online.
+                </source>
+                <target>
+                    Wejdź do świata szeroko pojętej fizyki, matematyki i astronomii. A to wszystko z dodatkiem zabawy i
+                    rywalizacji online.
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">5</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3ccabfc3dc288eaa2355ba43298c739f85951ec3" datatype="html">
+                <source>Get started</source>
+                <target>Rozpocznij</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="a5df14dbe7eb1b2f5dacd47121089eb1ddd3cd59" datatype="html">
+                <source>
+                    Join at Copernicus.com<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.code }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target>
+                    Wejdź na Copernicus.top<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.code }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">2</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8e859be1c21e0e3065c73925db6e1b514bee08d7" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Back
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Wróć
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/join/join.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="0fb41c643108e3036f5efa139342f7b9a560b696" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Share with friends
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Udostępnij
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
+                <source>About us</source>
+                <target>O nas</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">13</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2d37190000f137b74e367934ea3362e20e189fa5" datatype="html">
+                <source>
+                    Copernicus is quiz-based multiplayer, online game, totally free for everyone, no-ads, only valuable
+                    content. Here
+                    you can play, learn, compete in classroom or with peoples from entire world. Quiz is based on
+                    questions of topics from
+                    astronomy, physics, mathematics and strict Nicklaus Copernicus and his whole live, arts.
+                </source>
+                <target>
+                    Copernicus to oparta gra online, trybu quiz, całkowicie darmowa dla wszystkich, bez reklam.
+                    Tutaj możesz grać, uczyć się, rywalizować w klasie lekcyjnej lub z ludźmi z całego świata.
+                    Quiz opiera się na pytaniach z zakresu astronomii, fiyzki, matematyki i ściśle Mikołaja Kopernika
+                    oraz jego całą twórczość.
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+                    <context context-type="linenumber">16</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d184c74d3b65e9e243297a3067af28e7a6d9a2d1" datatype="html">
+                <source>Top 20 Players</source>
+                <target>Najlepsza dwuciestka</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6ddd111adc65ea7a206f01264da2c8a94adfef52" datatype="html">
+                <source>#</source>
+                <target>#</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="20ae108a7e345f9f46e9b1bf8106ce3fa073b07e" datatype="html">
+                <source>Fullname</source>
+                <target>Nazwa</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="380e20a1e13d9489c69f6dbea7da19025ab6eb25" datatype="html">
+                <source>Score</source>
+                <target>Punkty</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">13</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">16</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="46ab04482073e8ff438ac86ef494cb871752bf69" datatype="html">
+                <source>Ratio (W/L)</source>
+                <target>Ratio (W/L)</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="82c9d30b59ffc0e61540a5816223024e0e7bb3d6" datatype="html">
+                <source>
+                    Join
+                </source>
+                <target>
+                    Dołącz
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="191572cc97a3c153bbc47aaf5e4b2a89c4289d58" datatype="html">
+                <source>
+                    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Load more
+                </source>
+                <target>
+                    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Załaduj więcej
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">23</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="addd9eb9ba30470e0a76874b2cf336c1db849e60" datatype="html">
+                <source>
+                    Sign in to join
+                </source>
+                <target>
+                    Zaloguj się, żeby dołączyć
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">36</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="0f108a98d4672cb1e6c45886c1fd44cd1fca0fd8" datatype="html">
+                <source>Not found any available games.</source>
+                <target>Nie znaleziono żadnych, dostępnych gier.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+                    <context context-type="linenumber">43</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f6ac50256484747f3cd6c0369c870234232e1743" datatype="html">
+                <source>
+                    Create party
+                </source>
+                <target>
+                    Stwórz grę
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+                <source>Name</source>
+                <target>Nazwa</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="0292cbbb0c4261290aca6e776f7617533af37520" datatype="html">
+                <source>Primary language</source>
+                <target>Język przewodni</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="60041b7b6c6e42bcc4749e82fa378f3090e3ba4c" datatype="html">
+                <source>Max questions</source>
+                <target>Ilość pytań</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="70a67e04629f6d412db0a12d51820b480788d795" datatype="html">
+                <source>Create</source>
+                <target>Stwórz</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">34</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="92d148342c34c5a06629f123e69326ecdc0eb31c" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Back
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Wróć
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/create-party/create-party.component.html</context>
+                    <context context-type="linenumber">36</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="bfe767b26231f9b2b21c3dee508141b2c9dd7041" datatype="html">
+                <source>
+                    Game:
+                    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{game.name}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Members:
+                    <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION_1" equiv-text="{{game.members?.length}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Questions:
+                    <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION_2" equiv-text="{{game.questions?.length}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>
+                    Gra:
+                    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{game.name}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Człownków:
+                    <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION_1" equiv-text="{{game.members?.length}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    Pytań:
+                    <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>
+                    <x id="INTERPOLATION_2" equiv-text="{{game.questions?.length}}"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/round.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3eed3c0167ac14df9b8fcf72108d32ea25436c5d" datatype="html">
+                <source>Leave</source>
+                <target>Opuść</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/round.component.html</context>
+                    <context context-type="linenumber">31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="aa922b4f70787c668209f5e7cbf11293da18d4b8" datatype="html">
+                <source>
+                    Join to
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game?.name }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target>
+                    Dołącz do
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game?.name }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/join/join.component.html</context>
+                    <context context-type="linenumber">6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1360aa52f3faeed54a94917fb1c0d68d655eab2d" datatype="html">
+                <source>
+                    Join
+                </source>
+                <target>
+                    Dołącz
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/join/join.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="a1044ce893e3ee8206e5c748f168740f48d26000" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Back
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Wróć
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/join/join.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7d7517d4ca2a05f0d55c855730b55d11167093e1" datatype="html">
+                <source>
+                    Join at Copernicus.com<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>with PIN:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.code }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target>
+                    Wejdź Copernicus.com<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>z KODEM:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.code }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">2</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="26b462a6655ef2ebc97b2c74d51a5c1380f55001" datatype="html">
+                <source>
+                    Start with
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.members.length }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                    members
+                </source>
+                <target>
+                    Rozpocznij z
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ game.members.length }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                    członków
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5d49ee389add9351d1a4e56d4c8200eff140b932" datatype="html">
+                <source>
+                    Close
+                </source>
+                <target>
+                    Zamknij
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="c02cf115c3e25fb8aba7d5976d44c5805f5c0f9e" datatype="html">
+                <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Lobby
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Poczekalnia
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">18</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="91e1a3e89590c9aeac5faca0abcdfc5a40d4084c" datatype="html">
+                <source>
+                    Leave
+                </source>
+                <target>
+                    Wyjdź
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/waiting-scene/waiting-scene.component.html
+                    </context>
+                    <context context-type="linenumber">33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2b57189b63c6dc4940730313e9abe18a86b08123" datatype="html">
+                <source>
+                    Next question
+                </source>
+                <target>
+                    Następne pytanie
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ce3207da93c57ee458f63d63eb7beca97c8c8549" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Start Game
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Rozpocznij grę
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3b25c9f700d10eb71fa400ba5ba513737b300904" datatype="html">
+                <source>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Go to Summary
+                </source>
+                <target>
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    Podsumuj punkty
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">16</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="407cedc408da8b591480c478497955abdbbeca7a" datatype="html">
+                <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Quiz game
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Gra quiz
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="dab2c1cad44a61d1864d5038729953ab762a10c0" datatype="html">
+                <source>
+                    Question:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ question.orderIndex + 1 }}"/>
+                    of
+                    <x id="INTERPOLATION_1" equiv-text="{{ game.questions.length }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target>
+                    Pytanie:
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+                    <x id="INTERPOLATION" equiv-text="{{ question.orderIndex + 1 }}"/>
+                    of
+                    <x id="INTERPOLATION_1" equiv-text="{{ game.questions.length }}"/>
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="102e74ef8de9138727efc98888927dd36c71f71a" datatype="html">
+                <source>
+                    Answer correct
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                </source>
+                <target>
+                    Odpowiedź prawidłowa
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">84</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="b7d39cfd638039c752add77d3b9755c793323c24" datatype="html">
+                <source>
+                    Answer incorrect
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                </source>
+                <target>
+                    Odpowiedź nieprawidłowa
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">87</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3eba52dbaa15c2553565568d9b0ef3914fb989ee" datatype="html">
+                <source>Waiting for summaring...</source>
+                <target>Oczekiwanie na podsumowanie...</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">110</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7df992fd206edc5520b9e9ab14209b84f6f29de6" datatype="html">
+                <source>Waiting for next round...</source>
+                <target>Oczekiwanie na następną rundę...</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">111</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="572f87134f6aa4f09ee38bca937fcd75aa8a4527" datatype="html">
+                <source>Waiting for start...</source>
+                <target>Oczekiwanie na rozpoczęcie...</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
+                    </context>
+                    <context context-type="linenumber">112</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="14096db5ce8c71746b52b4d4b8be0ff09a9da01d" datatype="html">
+                <source>
+                    Leave from<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target>
+                    Wyjdź z<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6fd57cce2aef2c79332250d05f0076dbcc7fe678" datatype="html">
+                <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Final scoreboard
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </source>
+                <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Tabela wyników
+                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="81d400b008d0f6bd04b506531fd2bd82c6103c78" datatype="html">
+                <source>Place</source>
+                <source>Place</source>
+                <target>Miejsce</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="59bdc3dfa4075f92c734588899485db702c8f120" datatype="html">
+                <source>Player</source>
+                <target>Gracz</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="bc99df90a8b9f271fcf33a02fc5fb21e519d929e" datatype="html">
+                <source>The game was ended with zero score.</source>
+                <target>Gra została zakończona z wynikiem zero.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+                    <context context-type="linenumber">33</context>
+                </context-group>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
