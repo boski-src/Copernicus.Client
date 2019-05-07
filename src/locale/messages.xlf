@@ -10,302 +10,6 @@
         </context-group>
         <note priority="1" from="description">Spinner text</note>
       </trans-unit>
-      <trans-unit id="6e7ff9f6dc98574be925e54267f8b508746d000b" datatype="html">
-        <source>Enter Game CODE</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">Enter game PIN placeholder</note>
-      </trans-unit>
-      <trans-unit id="887686536bfa135c25a3a4ada87635f6abc4c981" datatype="html">
-        <source>
-            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Join
-          </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3740b72f222618fb957163c5cc970827d1aeda3e" datatype="html">
-        <source>
-        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="54d04a27f0a07a4244b67dd53e9dcc99db9c4ba1" datatype="html">
-        <source>
-        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Players
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3f13e2cab8208f1c5ecd86de9d22f386613b52b0" datatype="html">
-        <source>
-        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Games
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4f637e1dd58541464a8197ffe09e6ab07fdcf61b" datatype="html">
-        <source>
-      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Create party
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="67821fca5ccaf3363221d164daffde92b134ee6a" datatype="html">
-        <source>Choose language</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f02cfadaf11c7a039902672c6fb5074082bee8ce" datatype="html">
-        <source>Site map</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
-        <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">54</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="937093765fcbf52b42322e9515cad6fa7c82e39f" datatype="html">
-        <source>Top players</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="48e5266ec0eb1eb1dfced30b02d4ed0722370e56" datatype="html">
-        <source>Explore games</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="97a8e9a97b1654f0050096e4418106ff5f8fed73" datatype="html">
-        <source>Create party</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
-        <source>Logout</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="83be59bfa61a6accd9d6e353912ab7fee53096d9" datatype="html">
-        <source>Follow us</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2c2ced5de7937b56867d658174937ce253c37b22" datatype="html">
-        <source>
-              Source Code
-            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">84</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="be3e44843fc209fa89d43ce29eb19f94d378cc67" datatype="html">
-        <source>
-      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9ce81f26676297d91f163708da159143f9854a0d" datatype="html">
-        <source>
-      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> TOP Players
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">99</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="18066dab03322b15639ba410019ba8c0eed854d6" datatype="html">
-        <source>
-      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Explore games
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">102</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f91db3cb45a05f9cf68b97e89fac58221d456732" datatype="html">
-        <source>
-    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Sign In
-  </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">106</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="da5a0a0c5fddf02cffad79e0addb612e487d72ee" datatype="html">
-        <source>Learn with fun.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="77ebba6f8463860c712278fd39ee06e5686b1124" datatype="html">
-        <source>
-      Enter the world of physics, mathematics and astronomy. And all this with the addition of fun and competition online.
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="14837c994bd4efda0a07de3674673a271a4273ef" datatype="html">
-        <source>
-      Get started
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="31f9c3b2730173633518ede1dadcf9778d9778e2" datatype="html">
-        <source>
-      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Share with friends
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
-        <source>About us</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2d37190000f137b74e367934ea3362e20e189fa5" datatype="html">
-        <source>
-    Copernicus is quiz-based multiplayer, online game, totally free for everyone, no-ads, only valuable content. Here
-    you can play, learn, compete in classroom or with peoples from entire world. Quiz is based on questions of topics from
-    astronomy, physics, mathematics and strict Nicklaus Copernicus and his whole live, arts.
-  </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d184c74d3b65e9e243297a3067af28e7a6d9a2d1" datatype="html">
-        <source>Top 20 Players</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6ddd111adc65ea7a206f01264da2c8a94adfef52" datatype="html">
-        <source>#</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="20ae108a7e345f9f46e9b1bf8106ce3fa073b07e" datatype="html">
-        <source>Fullname</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="380e20a1e13d9489c69f6dbea7da19025ab6eb25" datatype="html">
-        <source>Score</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="46ab04482073e8ff438ac86ef494cb871752bf69" datatype="html">
-        <source>Ratio (W/L)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="82c9d30b59ffc0e61540a5816223024e0e7bb3d6" datatype="html">
-        <source>
-            Join
-          </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/game/join/join.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="191572cc97a3c153bbc47aaf5e4b2a89c4289d58" datatype="html">
-        <source>
-        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-        Load more
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="addd9eb9ba30470e0a76874b2cf336c1db849e60" datatype="html">
-        <source>
-    Sign in to join
-  </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0f108a98d4672cb1e6c45886c1fd44cd1fca0fd8" datatype="html">
-        <source>Not found any available games.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
-          <context context-type="linenumber">43</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="f6ac50256484747f3cd6c0369c870234232e1743" datatype="html">
         <source>
       Create party
@@ -384,6 +88,19 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/game/join/join.component.html</context>
           <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82c9d30b59ffc0e61540a5816223024e0e7bb3d6" datatype="html">
+        <source>
+            Join
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/game/join/join.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8e859be1c21e0e3065c73925db6e1b514bee08d7" datatype="html">
@@ -559,11 +276,285 @@
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="380e20a1e13d9489c69f6dbea7da19025ab6eb25" datatype="html">
+        <source>Score</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="bc99df90a8b9f271fcf33a02fc5fb21e519d929e" datatype="html">
         <source>The game was ended with zero score.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/game/round/ended-scene/ended-scene.component.html</context>
           <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e7ff9f6dc98574be925e54267f8b508746d000b" datatype="html">
+        <source>Enter Game CODE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Enter game PIN placeholder</note>
+      </trans-unit>
+      <trans-unit id="887686536bfa135c25a3a4ada87635f6abc4c981" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Join
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3740b72f222618fb957163c5cc970827d1aeda3e" datatype="html">
+        <source>
+        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54d04a27f0a07a4244b67dd53e9dcc99db9c4ba1" datatype="html">
+        <source>
+        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Players
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f13e2cab8208f1c5ecd86de9d22f386613b52b0" datatype="html">
+        <source>
+        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Games
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f637e1dd58541464a8197ffe09e6ab07fdcf61b" datatype="html">
+        <source>
+      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Create party
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67821fca5ccaf3363221d164daffde92b134ee6a" datatype="html">
+        <source>Choose language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f02cfadaf11c7a039902672c6fb5074082bee8ce" datatype="html">
+        <source>Site map</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="937093765fcbf52b42322e9515cad6fa7c82e39f" datatype="html">
+        <source>Top players</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48e5266ec0eb1eb1dfced30b02d4ed0722370e56" datatype="html">
+        <source>Explore games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97a8e9a97b1654f0050096e4418106ff5f8fed73" datatype="html">
+        <source>Create party</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83be59bfa61a6accd9d6e353912ab7fee53096d9" datatype="html">
+        <source>Follow us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be3e44843fc209fa89d43ce29eb19f94d378cc67" datatype="html">
+        <source>
+      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Home
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b38eeec337cfb51be91645f78fc7a510422ef31" datatype="html">
+        <source>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Players
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78999a777f715cdee812325d18ced1b808257a75" datatype="html">
+        <source>
+         <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Games
+       </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f91db3cb45a05f9cf68b97e89fac58221d456732" datatype="html">
+        <source>
+    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Sign In
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da5a0a0c5fddf02cffad79e0addb612e487d72ee" datatype="html">
+        <source>Learn with fun.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77ebba6f8463860c712278fd39ee06e5686b1124" datatype="html">
+        <source>
+      Enter the world of physics, mathematics and astronomy. And all this with the addition of fun and competition online.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14837c994bd4efda0a07de3674673a271a4273ef" datatype="html">
+        <source>
+      Get started
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31f9c3b2730173633518ede1dadcf9778d9778e2" datatype="html">
+        <source>
+      <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Share with friends
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
+        <source>About us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d37190000f137b74e367934ea3362e20e189fa5" datatype="html">
+        <source>
+    Copernicus is quiz-based multiplayer, online game, totally free for everyone, no-ads, only valuable content. Here
+    you can play, learn, compete in classroom or with peoples from entire world. Quiz is based on questions of topics from
+    astronomy, physics, mathematics and strict Nicklaus Copernicus and his whole live, arts.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/about-us/about-us.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d184c74d3b65e9e243297a3067af28e7a6d9a2d1" datatype="html">
+        <source>Top 20 Players</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ddd111adc65ea7a206f01264da2c8a94adfef52" datatype="html">
+        <source>#</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20ae108a7e345f9f46e9b1bf8106ce3fa073b07e" datatype="html">
+        <source>Fullname</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46ab04482073e8ff438ac86ef494cb871752bf69" datatype="html">
+        <source>Ratio (W/L)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="191572cc97a3c153bbc47aaf5e4b2a89c4289d58" datatype="html">
+        <source>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        Load more
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addd9eb9ba30470e0a76874b2cf336c1db849e60" datatype="html">
+        <source>
+    Sign in to join
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f108a98d4672cb1e6c45886c1fd44cd1fca0fd8" datatype="html">
+        <source>Not found any available games.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/explore-games/explore-games.component.html</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
     </body>

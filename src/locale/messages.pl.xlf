@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="ng2.template">
         <body>
@@ -204,32 +204,24 @@
                     <context context-type="linenumber">96</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="9ce81f26676297d91f163708da159143f9854a0d" datatype="html">
+            <trans-unit id="2b38eeec337cfb51be91645f78fc7a510422ef31" datatype="html">
                 <source>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    TOP Players
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Players
                 </source>
                 <target>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    Najlepsi gracze
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Gracze
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
                     <context context-type="linenumber">99</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="18066dab03322b15639ba410019ba8c0eed854d6" datatype="html">
+            <trans-unit id="78999a777f715cdee812325d18ced1b808257a75" datatype="html">
                 <source>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    Explore games
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Games
                 </source>
                 <target>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    Przeglądaj gry
+                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Quizy
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -808,7 +800,7 @@
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                 </source>
                 <target>
-                    Wyjdź z<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
+                    Wyjdź z <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                 </target>
                 <context-group purpose="location">
