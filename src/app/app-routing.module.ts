@@ -4,10 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './core/guards/auth.guard';
 import { AdminGuard } from './core/guards/admin.guard';
 
-import { HomeModule } from './home/home.module';
-import { AdminModule } from './admin/admin.module';
-import { GameModule } from './game/game.module';
-
 const routes: Routes = [
   {
     path: '',
