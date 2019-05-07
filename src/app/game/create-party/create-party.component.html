@@ -1,0 +1,41 @@
+<form class="game-form" [formGroup]="form" (submit)="submit()">
+  <div class="text-center mb-4">
+    <h1 class="h3 mb-3 font-weight-normal" i18n>
+      Create party
+    </h1>
+  </div>
+
+  <div class="form-label-group">
+    <label i18n>Name</label>
+    <input type="text" class="form-control" placeholder="Name" formControlName="name" required autofocus>
+  </div>
+
+  <div class="form-label-group">
+    <label i18n>Primary language</label>
+    <select class="form-control" formControlName="primaryLanguage">
+      <option value="EN">English</option>
+      <option value="PL">Polish</option>
+    </select>
+  </div>
+
+  <div class="form-label-group mb-2">
+    <label i18n>Max questions</label>
+    <select class="form-control" formControlName="maxQuestions">
+      <option [value]="5">5</option>
+      <option [value]="10">10</option>
+      <option [value]="15">15</option>
+      <option [value]="20">20</option>
+      <option [value]="25">25</option>
+    </select>
+  </div>
+
+  <button class="btn btn-lg btn-primary btn-block" type="submit" [disabled]="createing">
+    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="createing"></span>
+    <ng-container *ngIf="!createing" i18n>Create</ng-container>
+  </button>
+  <button class="btn btn-lg btn-dark btn-block btn-sm" (click)="goBack()" i18n>
+    <i class="fas fa-undo"></i> Back
+  </button>
+
+  <p class="mt-5 mb-3 text-muted text-center">&copy; Copernicus 2019</p>
+</form>

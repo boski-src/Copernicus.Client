@@ -1,0 +1,32 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink="/" i18n>Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page" i18n>Top 20 Players</li>
+  </ol>
+</nav>
+
+<table class="table table-dark text-center" *ngIf="players; else spinner">
+  <thead>
+  <tr>
+    <th scope="col" i18n>#</th>
+    <th scope="col" i18n>Fullname</th>
+    <th scope="col" i18n>Score</th>
+    <th scope="col" i18n>Ratio (W/L)</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr
+          *ngFor="let player of players; let i = index;"
+          [class.bg-success]="i == 0"
+          [class.bg-warning]="i == 1"
+          [class.bg-secondary]="i == 1"
+  >
+    <th scope="row">{{ i + 1 }}</th>
+    <td class="text-left">{{ player.userName }}</td>
+    <td>{{ player.score }}</td>
+    <td>{{ player.winGames }}<b>/</b>{{ player.totalGames - player.winGames }}</td>
+  </tr>
+  </tbody>
+</table>
+
+<ng-template #spinner><app-spinner></app-spinner></ng-template>

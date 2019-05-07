@@ -1,0 +1,33 @@
+<div class="game-form">
+  <div class="justify-content-md-center">
+    <div class="col-md-auto">
+      <div>
+        <div class="text-center my-4">
+          <h1 class="h3 mb-3 font-weight-normal" i18n>
+            Join to <b>{{ game?.name }}</b>
+          </h1>
+        </div>
+
+        <ng-container *ngIf="isLogged; else noLoggedButtons">
+          <button class="btn btn-lg btn-primary btn-block"  (click)="join()" [disabled]="isUnavailable" i18n>
+            Join
+          </button>
+          <button class="btn btn-lg btn-dark btn-block btn-sm" (click)="goBack()" i18n>
+            <i class="fas fa-undo"></i> Back
+          </button>
+        </ng-container>
+
+        <p class="mt-5 mb-3 text-muted text-center">&copy; Copernicus 2019</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noLoggedButtons>
+  <button class="btn btn-lg btn-outline-primary btn-block" (click)="login()" i18n>
+    Sign In first
+  </button>
+  <button class="btn btn-lg btn-dark btn-block btn-sm" (click)="goBack()" i18n>
+    <i class="fas fa-undo"></i> Back
+  </button>
+</ng-template>

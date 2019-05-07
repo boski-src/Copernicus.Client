@@ -1,0 +1,37 @@
+<div class="loader" *ngIf="!isConnected">
+  <div class="loader-container">
+    <div class="item-1"></div>
+    <div class="item-2"></div>
+    <div class="item-3"></div>
+    <div class="item-4"></div>
+    <div class="item-5"></div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-md-center">
+    <div class="col-md-10">
+      <div>
+        <div class="text-right" i18n>
+          Game:
+          <span class="badge badge-dark">{{game.name}}</span>
+          Members:
+          <span class="badge badge-info">{{game.members?.length}}</span>
+          Questions:
+          <span class="badge badge-primary">{{game.questions?.length}}</span>
+        </div>
+        <div>
+          <app-waiting-scene [game]="game" [isOwner]="isOwner" *ngIf="isWaiting"></app-waiting-scene>
+          <app-started-scene [game]="game" [isOwner]="isOwner" *ngIf="isStarted"
+            (questionChanged)="onQuestionChanged($event)" (answerCreated)="onAnswerCreated($event)"></app-started-scene>
+          <app-ended-scene [game]="game" [isOwner]="isOwner" *ngIf="isEnded"></app-ended-scene>
+        </div>
+
+        <p class="mt-5 mb-3 text-muted text-center">
+          <a (click)="leave()" i18n>Leave</a><br>
+          &copy; Copernicus 2019
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

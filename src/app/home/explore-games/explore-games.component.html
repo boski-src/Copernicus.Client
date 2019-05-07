@@ -1,0 +1,45 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink="/" i18n>Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page" i18n>Explore games</li>
+  </ol>
+</nav>
+
+<div class="my-3 p-3 bg-white rounded shadow-sm" *ngIf="games; else spinner">
+  <ng-container *ngIf="games.length > 0; else noGames">
+    <div class="media text-muted pt-3" *ngFor="let game of games">
+      <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <strong>{{ game.name }}</strong>
+          <button class="btn btn-primary text-right btn-sm" *ngIf="isLogged; else noLoggedButton"
+            (click)="redirectToGame(game.id)" i18n>
+            Join
+          </button>
+        </div>
+        <span class="d-block">{{ game.createdAt | date: 'medium' }}</span>
+      </div>
+    </div>
+    <small class="d-block text-right mt-3">
+      <button class="btn btn-dark btn-sm" (click)="load()" [disabled]="loading" i18n>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="loading"></span>
+        Load more
+      </button>
+    </small>
+  </ng-container>
+</div>
+
+<ng-template #spinner>
+  <app-spinner></app-spinner>
+</ng-template>
+
+<ng-template #noLoggedButton>
+  <button class="btn btn-dark text-right btn-sm disabled" i18n>
+    Sign in to join
+  </button>
+</ng-template>
+
+<ng-template #noGames>
+  <div class="text-center">
+    <b i18n>Not found any available games.</b>
+  </div>
+</ng-template>

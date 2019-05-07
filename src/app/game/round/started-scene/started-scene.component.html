@@ -1,0 +1,113 @@
+<div class="text-center my-3">
+  <ng-container *ngIf="isOwner; else noOwnerControls">
+    <ng-container *ngIf="!currentTime && !questionIsLast">
+      <button class="btn btn-dark mr-1" (click)="nextQuestion()" *ngIf="questionIsSet" i18n>
+        Next question
+      </button>
+      <button class="btn btn-dark mr-1" (click)="nextQuestion()" *ngIf="!questionIsSet" i18n>
+        <i class="fas fa-play"></i> Start Game
+      </button>
+    </ng-container>
+  </ng-container>
+</div>
+
+<div class="text-center my-3">
+  <ng-container *ngIf="isOwner && questionIsLast && !timerPercent">
+    <button class="btn btn-dark mr-1" (click)="end()" i18n>
+      <i class="fas fa-chess-queen"></i> Go to Summary
+    </button>
+  </ng-container>
+</div>
+
+<h1 i18n><b>Quiz game</b></h1>
+<div class="quiz" *ngIf="!waiting && questionIsSet">
+  <div class="progress" style="height: 25px;" *ngIf="!showQuestionAnswer">
+    <div
+      class="progress-bar"
+      role="progressbar"
+      [style.width]="timerPercent + '%'"
+      [class.bg-success]="timerPercent >= 75"
+      [class.bg-info]="timerPercent >= 50 && timerPercent < 75"
+      [class.bg-warning]="timerPercent >= 25 && timerPercent < 50"
+      [class.bg-danger]="timerPercent >= 0 && timerPercent < 25"
+    >
+      <b *ngIf="timerPercent">{{ currentTime / 1000 }}s</b>
+    </div>
+  </div>
+
+  <div class="my-2">
+    <span class="badge badge-secondary" i18n>
+      Question: <b>{{ question.orderIndex + 1 }} of {{ game.questions.length }}</b>
+    </span>
+    <div class="card text-center" *ngIf="!showQuestionAnswer; else showQuestionAnswers">
+      <img
+        *ngIf="question.image"
+        [src]="question.image"
+        class="img-fluid p-1 card-img-top rounded mx-auto d-block"
+        style="max-height: 350px"
+      >
+      <div class="card-body">
+        <div class="question">
+          <h4>
+            <span>{{ question.translations[getLanguageCode] }}</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" data-toggle="buttons">
+    <div
+      class="col-md-4"
+      [class.col-md-4]="question.choices.length >= 4"
+      [class.col-md-6]="question.choices.length >= 2"
+      *ngFor="let choice of question.choices; index as i"
+    >
+      <button
+        [class]="'btn btn-lg btn-' + colors[i] + ' btn-block mb-1'"
+        (click)="answerQuestion(choice.answer, choice.isCorrect)"
+        [disabled]="answered || !currentTime"
+      >
+        <span class="btn-label" *ngIf="answered && choice.answer == answeredValue">
+          <i class="fas fa-chevron-right"></i>
+        </span>
+        {{ choice.translations[getLanguageCode] }}
+        <span class="btn-label-right" *ngIf="showQuestionAnswer && choice.isCorrect">
+          <i class="fas fa-check"></i>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<ng-template #showQuestionAnswers>
+  <div class="my-2">
+    <button class="text-center btn btn-lg btn-block btn-success" *ngIf="answeredCorrect" i18n>
+      Answer correct <i class="fas fa-smile"></i>
+    </button>
+    <button class="text-center btn btn-lg btn-block btn-danger" *ngIf="!answeredCorrect" i18n>
+      Answer incorrect <i class="fas fa-frown"></i>
+    </button>
+  </div>
+  <div class="d-flex justify-content-center">
+    <ngx-charts-bar-vertical
+      [view]="[300, 300]"
+      [scheme]="chartColors"
+      [results]="chartData"
+      [gradient]="false"
+      [xAxis]="false"
+      [yAxis]="true"
+      [legend]="false"
+      [showXAxisLabel]="false"
+      [showYAxisLabel]="false"
+      [xAxisLabel]="'Answers'"
+      [yAxisLabel]="'Count'"
+    ></ngx-charts-bar-vertical>
+  </div>
+  <hr>
+</ng-template>
+
+<ng-template #noOwnerControls>
+  <b *ngIf="questionIsLast && !currentTime" i18n>Waiting for summaring...</b>
+  <b *ngIf="questionIsSet && !currentTime && !questionIsLast" i18n>Waiting for next round...</b>
+  <b *ngIf="!questionIsSet" i18n>Waiting for start...</b>
+</ng-template>

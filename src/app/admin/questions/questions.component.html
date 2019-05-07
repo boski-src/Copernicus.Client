@@ -1,0 +1,50 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Questions</h1>
+  <form class="form-inline mt-2 ml-md-auto mt-md-0 mr-1">
+    <div class="input-group">
+      <input
+              type="text"
+              class="form-control"
+              [formControl]="searchControl"
+              placeholder="Enter keyword"
+              (change)="findQuestions()"
+      >
+    </div>
+  </form>
+  <button class="btn btn-success" (click)="createShow = !createShow">Create</button>
+</div>
+
+<app-create-question-form *ngIf="createShow" (created)="onCreatedQuestion()"></app-create-question-form>
+
+<table class="table table-sm table-hover text-center" *ngIf="questions; else spinner">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Question</th>
+    <th scope="col">Choices</th>
+    <th scope="col">Time</th>
+    <th scope="col">CreatedAt</th>
+    <th scope="col">Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let question of questions; let i = index;">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>{{ question.query }}</td>
+    <td>{{ question.choices.length }}</td>
+    <td>{{ question.time / 1000 }}s</td>
+    <td>{{ question.createdAt | date: 'short' }}</td>
+    <td><button class="btn btn-danger" (click)="deleteQuestion(question.id)">
+      <i class="fa fa-times"></i></button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="text-right" *ngIf="questions">
+  <button class="btn btn-dark" (click)="loadMore()">Load more</button>
+</div>
+
+<ng-template #spinner>
+  <app-spinner></app-spinner>
+</ng-template>

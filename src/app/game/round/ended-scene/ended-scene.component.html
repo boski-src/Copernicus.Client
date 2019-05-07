@@ -1,0 +1,38 @@
+<div class="text-center my-3">
+  <ng-container>
+    <button class="btn btn-dark mr-1" (click)="goBack()" i18n>
+      Leave from <b>QUIZ</b>
+    </button>
+  </ng-container>
+</div>
+
+<h1 i18n><b>Final scoreboard</b></h1>
+<ng-container *ngIf="!loading; else spinner">
+<table class="table table-dark text-center" *ngIf="winners.length > 0; else endedInvalid">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col" i18n>Place</th>
+      <th scope="col" i18n>Player</th>
+      <th scope="col" i18n>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let winner of winners; index as i"
+    [class.bg-warning]="i == 0"
+    [class.bg-info]="i == 1"
+    [class.bg-primary]="i == 2">
+      <th scope="row">{{ i + 1 }}</th>
+      <td class="text-left"><b>{{ winner.userName }}</b></td>
+      <td><b>{{ winner.score }}</b></td>
+    </tr>
+  </tbody>
+</table>
+</ng-container>
+
+<ng-template #endedInvalid>
+  <p class="text-center" i18n>The game was ended with zero score.</p>
+</ng-template>
+
+<ng-template #spinner>
+  <app-spinner></app-spinner>
+</ng-template>

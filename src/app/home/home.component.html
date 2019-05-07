@@ -1,0 +1,98 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Copernicus</h5>
+  <ng-container *ngIf="isLogged; else notLoggedNav">
+    <form class="form-inline mt-2 mr-md-auto mt-md-0">
+      <div class="input-group">
+        <input type="number" [formControl]="gameCodeControl" class="form-control" placeholder="Enter Game CODE" i18n-placeholder="Enter game PIN placeholder">
+        <div class="input-group-append">
+          <button class="btn btn-warning" type="button" [disabled]="!gameCodeValid" (click)="searchGame()" i18n>
+            <i class="fas fa-mouse-pointer"></i> Join
+          </button>
+        </div>
+      </div>
+    </form>
+    <nav class="my-2 my-md-0 mr-md-3 text-center">
+      <a class="p-2 text-dark" routerLink="/" i18n>
+        <i class="fas fa-home"></i> Home
+      </a>
+      <a class="p-2 text-dark" routerLink="/top-players" routerLinkActive="active" i18n>
+        <i class="fas fa-star"></i> Players
+      </a>
+      <a class="p-2 text-dark" routerLink="/explore" routerLinkActive="active" i18n>
+        <i class="fas fa-globe"></i> Games
+      </a>
+    </nav>
+    <a class="btn btn-outline-primary" routerLink="/game/create" i18n>
+      <i class="fas fa-plus"></i> Create party
+    </a>
+    <a class="btn btn-danger ml-1" routerLink="/admin" *ngIf="isAdmin"><i class="fas fa-tools"></i></a>
+  </ng-container>
+</div>
+
+<div class="container">
+
+  <router-outlet></router-outlet>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h5 i18n>Choose language</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" (click)="setLanguage('en')">English</a>
+          </li>
+          <li>
+            <a class="text-muted" (click)="setLanguage('pl')">Polish</a>
+          </li>
+        </ul>
+        <small class="d-block mb-3 text-muted">Copernicus &copy; 2019</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5 i18n>Site map</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" routerLink="/" i18n>Home</a>
+          </li>
+          <li>
+            <a class="text-muted" routerLink="/top-players" i18n>Top players</a>
+          </li>
+          <li>
+            <a class="text-muted" routerLink="/explore" i18n>Explore games</a>
+          </li>
+          <li>
+            <a class="text-muted" routerLink="/game/create" i18n>Create party</a>
+          </li>
+          <li>
+            <a class="text-muted" (click)="logout()" i18n>Logout</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 i18n>Follow us</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Facebook</a></li>
+          <li><a class="text-muted" href="#">Github</a></li>
+          <li><a class="text-muted" href="#" i18n>Source Code</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<ng-template #notLoggedNav>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" routerLink="/" routerLinkActive="active" i18n>
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a class="p-2 text-dark" routerLink="/top-players" routerLinkActive="active" i18n>
+      <i class="fas fa-star"></i> TOP Players
+    </a>
+    <a class="p-2 text-dark" routerLink="/explore" routerLinkActive="active" i18n>
+      <i class="fas fa-globe"></i> Explore games
+    </a>
+  </nav>
+  <a class="btn btn-outline-primary" (click)="login()" i18n>
+    <i class="fas fa-sign-in-alt"></i> Sign In
+  </a>
+</ng-template>
+
