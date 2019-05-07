@@ -31,7 +31,7 @@ export class EndedSceneComponent implements OnInit {
           },
           () => setTimeout(() => this.ngOnInit(), 4000)
         );
-    }, 1000)
+    }, 1000);
   }
 
   public get bestWinner() : Member {

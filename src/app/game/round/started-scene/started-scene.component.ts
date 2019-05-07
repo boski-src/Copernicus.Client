@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { Game } from '../../../core/models/game/game.model';
 import { GameQuestion } from '../../../core/models/game/game-question.model';
 import { GamesRepositoryService } from '../../../core/repositories/games-repository.service';
@@ -13,7 +13,7 @@ import { SessionService } from 'src/app/core/services/session.service';
   templateUrl: './started-scene.component.html',
   styleUrls: ['./started-scene.component.scss']
 })
-export class StartedSceneComponent implements OnInit {
+export class StartedSceneComponent implements OnInit, OnDestroy {
 
   @Input() public game : Game;
   @Input() public isOwner : boolean;
@@ -26,15 +26,15 @@ export class StartedSceneComponent implements OnInit {
     domain: ['#ffc107', '#28a745', '#007bff', '#dc3545', '#17a2b8', '#343a40']
   };
 
-  public totalTime : number = 0;
-  public currentTime : number = 0;
+  public totalTime = 0;
+  public currentTime = 0;
   public question : GameQuestion = {} as GameQuestion;
 
-  public waiting : boolean = false;
-  public answered : boolean = false;
-  public answeredValue : string = '';
-  public answeredCorrect : boolean = false;
-  public showQuestionAnswer : boolean = false;
+  public waiting = false;
+  public answered = false;
+  public answeredValue = '';
+  public answeredCorrect = false;
+  public showQuestionAnswer = false;
 
   public chartData = {};
 
@@ -60,6 +60,8 @@ export class StartedSceneComponent implements OnInit {
   }
 
   public get questionIsLast() : boolean {
+    if (!this.game.questions.length) return false;
+
     return this.game.questions[this.game.questions.length - 1].id == this.game.currentQuestionId;
   }
 
@@ -67,19 +69,19 @@ export class StartedSceneComponent implements OnInit {
     return this.currentTime / this.totalTime * 100;
   }
 
-  public get yourCorrectAnswers () : Answer[] {
+  public get yourCorrectAnswers() : Answer[] {
     return this.game.answers.filter(x => x.userId == this.sessionService.me.id && x.isCorrect == true);
   }
 
-  public get answersForCurrentQuestion () : Answer[] {
+  public get answersForCurrentQuestion() : Answer[] {
     return this.game.answers.filter(x => x.questionId == this.game.currentQuestionId);
   }
 
   public updateChartData() {
-    let choices = this.getQuestion(this.game.currentQuestionId).choices;
-    let answers = this.answersForCurrentQuestion;
+    const choices = this.getQuestion(this.game.currentQuestionId).choices;
+    const answers = this.answersForCurrentQuestion;
 
-    let data = [];
+    const data = [];
 
     choices.forEach((c, index) => {
       data.push({
@@ -98,7 +100,9 @@ export class StartedSceneComponent implements OnInit {
 
   public nextQuestion() {
     this.gamesRepository.nextQuestion(this.game.id)
-      .subscribe(() => true);
+      .subscribe(() => true, e => {
+        if (e.error && e.error.error.code == GameNoMoreQuestions) this.end();
+      });
   }
 
   public answerQuestion(answer : string, isCorrect : boolean) {
@@ -116,6 +120,12 @@ export class StartedSceneComponent implements OnInit {
     if (this.questionIsSet) this.waiting = true;
     this.registerOnQuestionChanged();
     this.registerOnAnswerCreated();
+  }
+
+  ngOnDestroy() {
+    this.unregisterAll();
+    clearInterval(this.timer);
+    this.game = {} as Game;
   }
 
   public registerOnQuestionChanged(): void {
@@ -138,7 +148,7 @@ export class StartedSceneComponent implements OnInit {
         if (this.currentTime <= 0) {
           clearInterval(this.timer);
           this.updateChartData();
-          this.showQuestionAnswer = true;
+          setTimeout(() => this.showQuestionAnswer = true, 1000);
         }
       }, 1000);
     });
@@ -148,6 +158,11 @@ export class StartedSceneComponent implements OnInit {
     this.gameSignalR.hub.on('AnswerCreated', x => {
       this.answerCreated.emit(x.answer);
     });
+  }
+
+  public unregisterAll() {
+    this.gameSignalR.hub.off('QuestionChanged');
+    this.gameSignalR.hub.off('AnswerCreated');
   }
 
 }

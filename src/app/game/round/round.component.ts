@@ -20,7 +20,6 @@ import { Answer } from 'src/app/core/models/game/answer.model';
 export class RoundComponent implements OnInit, OnDestroy {
 
   public game : Game = {} as Game;
-  public gameSubscription : Subscription;
 
   constructor(
     private route : ActivatedRoute,
@@ -67,13 +66,14 @@ export class RoundComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.gameSubscription.unsubscribe();
     this.gameSignalR.leaveFromGame(this.game.id);
+    this.game = {} as Game;
+    this.unregisterAll();
   }
 
   public load() : void {
     this.route.params.subscribe(params => {
-      this.gameSubscription = this.gamesRepository.fetch(params.id)
+      this.gamesRepository.fetch(params.id)
         .subscribe((x) => this.onSuccess(x), e => {
           if (e.error && e.error.error.code == GameNotMember)
             this.router.navigate(['/game', this.route.snapshot.params.id, 'join']);
@@ -100,15 +100,23 @@ export class RoundComponent implements OnInit, OnDestroy {
   public registerOnMemberJoined() : void {
     this.gameSignalR.hub.on('MemberJoined', member => {
       const { userId, userName, userAvatarUrl } = member;
-      this.game.members.push(new Member({ userId, userName, userAvatarUrl }))
+      this.game.members.push(new Member({ userId, userName, userAvatarUrl }));
     });
   }
 
   public registerOnMemberLeft() : void {
     this.gameSignalR.hub.on('MemberLeft', member => {
-      let index = this.game.members.findIndex(x => x.userId == member.userId);
+      const index = this.game.members.findIndex(x => x.userId == member.userId);
       this.game.members.splice(index, 1);
     });
+  }
+
+  public unregisterAll() : void {
+    this.gameSignalR.hub.off('GameStarted');
+    this.gameSignalR.hub.off('GameEnded');
+    this.gameSignalR.hub.off('MemberLeft');
+    this.gameSignalR.hub.off('MemberJoined');
+    this.gameSignalR.hub.off('LoaderboardCalculated');
   }
 
   public onSuccess(game : Game) {

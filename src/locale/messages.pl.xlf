@@ -837,7 +837,7 @@
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                 </source>
                 <target>
-                    Wyjdź z<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
+                    Wyjdź z <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>QUIZ
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                 </target>
                 <context-group purpose="location">
