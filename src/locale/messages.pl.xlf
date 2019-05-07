@@ -764,11 +764,11 @@
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
                     <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                 </source>
-                <source>
+                <target>
                     Odpowiedź nieprawidłowa
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
                     <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                </source>
+                </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/game/round/started-scene/started-scene.component.html
                     </context>

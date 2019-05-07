@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import { SessionService } from '../core/services/session.service';
 import { AuthService } from '../core/services/auth.service';
@@ -20,7 +20,8 @@ export class HomeComponent implements OnInit {
     private sessionService : SessionService,
     private authService : AuthService,
     private gamesRepository : GamesRepositoryService,
-    private router : Router
+    private router : Router,
+    private route : ActivatedRoute
   ) { }
 
   public gameCodeControl : FormControl = this.formBuilder.control(null, [
@@ -64,8 +65,7 @@ export class HomeComponent implements OnInit {
   }
 
   public setLanguage(code : string) {
-    // localStorage.setItem('language', code);
-    window.location.replace(`/${code}/`);
+    window.location.replace(`/${code}${this.router.url}`);
   }
 
   ngOnInit() {
