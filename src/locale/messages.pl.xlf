@@ -321,7 +321,7 @@
             </trans-unit>
             <trans-unit id="d184c74d3b65e9e243297a3067af28e7a6d9a2d1" datatype="html">
                 <source>Top 20 Players</source>
-                <target>Najlepsza dwuciestka</target>
+                <target>Najlepsza dwudziestka</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/top-players/top-players.component.html</context>
                     <context context-type="linenumber">4</context>

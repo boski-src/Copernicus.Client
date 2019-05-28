@@ -20,7 +20,7 @@ export class CreatePartyComponent implements OnInit {
   ngOnInit() {
     this.form = this.formBuilder.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
-      primaryLanguage: ['EN', [Validators.required]],
+      primaryLanguage: ['PL', [Validators.required]],
       maxQuestions: [5, [Validators.required, Validators.min(5), Validators.max(25)]],
     });
   }
